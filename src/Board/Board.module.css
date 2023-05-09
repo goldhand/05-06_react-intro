@@ -1,0 +1,11 @@
+.Board {
+  display: flex;
+  flex-flow: row wrap;
+  width: 110px;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.Status {
+  margin-bottom: 10px;
+}
