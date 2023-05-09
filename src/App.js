@@ -1,5 +1,8 @@
 import { Game } from './Game/Game'
+import styles from './App.css'
 
 export const App = () => (
-  <Game />
+  <main className={styles.App}>
+    <Game />
+  </main>
 )
