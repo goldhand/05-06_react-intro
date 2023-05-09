@@ -15,7 +15,7 @@ export const Board = () => {
 
   return (
     <div>
-      <Status xIsNext={xIsNext(currentMove)} squares={squares} />
+      <Status />
       <div className={styles.Board}>
         {SQUARES.map((i) => (
           <Square key={i} value={squares[i]} onSquareClick={handleClick(i)} />

@@ -3,7 +3,7 @@ import { currentSquares, xIsNext } from "../utils";
 import { useCalculateWinner } from "./useCalculateWinner";
 
 export const useNext = () => {
-  const {history, currentMove, setHistory, setCurrentMove } = useGame();
+  const { history, currentMove, setHistory, setCurrentMove } = useGame();
   const squares = currentSquares(history, currentMove);
 
   const calculateWinner = useCalculateWinner();
